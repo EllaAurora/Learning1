@@ -249,4 +249,18 @@ print(type(x))
 print(type(y))
 print(type(z))
 
+# %% while loops
+print("starting")
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+print("Ending")
+# %% take 3
+i = 1
+while i < 6:
+  print(i)
+  if i == 3:
+    break
+  i += 1
 # %%
