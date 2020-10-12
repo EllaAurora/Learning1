@@ -264,3 +264,52 @@ while i < 6:
     break
   i += 1
 # %%
+x = 5
+x = float(x)
+# %%
+x = 5.5
+x = int(x)
+# %%
+def my_function():
+  print("Hello from a function")
+my_function()
+# %%
+def my_function(fname,lname):
+    print(fname)
+my_function("Ella","Strong")
+# %%
+def my_function(fname,lname): # def says this is a function declaration
+    print(fname+" "+lname)
+my_function("Ella","Strong") # calling the function with 2 parameters
+# %%
+def my_function(x):
+    return x + 5
+my_function(10)
+# %%
+def my_function(x):
+    return x + 5
+answer =my_function(10)
+print("function answer: "+ str(answer))
+# %%
+def my_function(*kids):
+  print("The youngest child is " + kids[2])
+my_function("purple","blue","red","black")
+# %%
+def my_function(child3, child2, child1):
+  print("The youngest child is " + child3)
+
+my_function(child1 = "Emil", child2 = "Tobias", child3 = "Linus")
+my_function("Emil", "Tobias", "Linus")
+# %%
+def my_function(**kid):
+  print("His last name is " + kid["lname"])
+
+my_function(fname = "Tobias", lname = "Refsnes")
+# %% Print the second item in the fruits list. https://www.w3schools.com/python/exercise.asp?filename=exercise_lists1
+fruits = ["apple","banana","cherry"]
+print(fruits[1])
+# %% Change the value from "apple" to "kiwi", in the fruits list.
+fruits = ["apple","banana","cherry"]
+fruits[0] = "kiwi"
+print(fruits)
+# %%
