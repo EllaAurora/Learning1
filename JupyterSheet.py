@@ -363,3 +363,52 @@ if 5 == 10 or 4 == 4:
   print("At least one of the statements is true")
 
 # %%
+a = 50
+b = 10
+if a > b:
+  print("Hello World")
+# %%
+a = 50
+b = 10
+if a != b:
+  print("Hello World")
+# %%
+a = 10
+b = 10
+if a == b:
+  print("Yes")
+else:
+  print("No")
+# %%
+a = 50
+b = 10
+if a == b:
+  print("1")
+elif  a > b:
+  print("2")
+else:
+  print("3")
+# %%
+a = 50
+b = 10
+c = 50
+d = 10
+if a == b and c == d:
+  print("Hello")
+# %%
+if a == b or c == d:
+  print("Hello")
+
+# %%
+if 5 > 2: print("Five is greater than two!")
+if 5 > 2: 
+    print("Five is greater than two!")
+
+# %%
+if 5 > 2:
+  print("Yes")
+else:
+  print("No")
+print("Yes") if 5 > 2 else print("No")
+
+# %%
