@@ -313,3 +313,53 @@ fruits = ["apple","banana","cherry"]
 fruits[0] = "kiwi"
 print(fruits)
 # %%
+#   item   |  first |  second  |   third
+#  index   |  0     |   1      |   2
+fruits = [ "apple",  "banana",   "cherry"]
+print(fruits[1])
+
+# %%
+fruits = ["apple", "banana", "cherry"]
+fruits.append ("orange")
+fruits
+
+# %%
+#   item   |  first |  second  |   third
+#  index   |  0     |   1      |   2
+
+#                 |
+#                 |
+# insert          \/
+fruits = ["apple", "banana", "cherry"]
+fruits.insert(1,"lemon")
+fruits
+# %%
+#   item   |  first |  second  |   third
+#  index   |  0     |   1      |   2
+# negative indexing
+#          |  -3     |   -2           -1                <---
+
+#
+#                 |
+#                 |
+# insert          \/
+fruits = ["apple", "banana", "cherry"]
+fruits[-2]
+# %% Use a range of indexes to print the third, fourth, and fifth item in the list.
+fruits = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+fruits[2:5]
+# %% Use the correct syntax to print the number of items in the list.
+fruits = ["apple", "banana", "cherry"]
+len(fruits)
+# %% Use the correct membership operator to check if "apple" is present in the fruits object.
+fruits = ["apple", "banana"]
+if "apple" in fruits:
+  print("Yes, apple is a fruit!")
+# %% Use the correct comparison operator to check if 5 is not equal to 10.
+if 5 != 10:
+      print("5 and 10 is not equal")
+# %% Use the correct logical operator to check if at least one of two statements is True.
+if 5 == 10 or 4 == 4:
+  print("At least one of the statements is true")
+
+# %%
