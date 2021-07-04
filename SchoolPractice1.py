@@ -9,4 +9,4 @@ print("hello",name, "you are " ,age, "years old")
 
 shoeSize= input("please enter your shoeSize")
 print("hello",shoeSize)
- "whzts ur favourite food"
+print ("whats ur favourite food")

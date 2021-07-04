@@ -412,3 +412,41 @@ else:
 print("Yes") if 5 > 2 else print("No")
 
 # %%
+count =5
+# %%
+x = range(6)
+for n in x:
+  print(n)
+# %%
+for n in range(0,3):
+  print(n)
+
+# %%
+
+import time
+
+attempts = 0
+password = "password"
+
+
+#for i in range(0,3):
+userInput = input("please enter your password")
+if userInput == password and attempts <4:
+    print("Welcome to Twitter HQ")
+    attempts=0
+
+
+else:
+    print("incorrect password")
+    attempts = attempts+1
+    if attempts == 3:
+        print("too many tries")
+        print("locked out for 10 seconds")
+        attempts = 0
+        for x in range(0,10):
+            print(x)
+            time.sleep(0.2)
+    else:
+        print("please try again")
+        print("loop exited")
+# %%
