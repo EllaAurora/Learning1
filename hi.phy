@@ -1,0 +1,8 @@
+# caesar.py
+ 2import string
+ 3
+ 4def caesar(plain_text, shift_num=1):
+ 5    letters = string.ascii_lowercase
+ 6    mask = letters[shift_num:] + letters[:shift_num]
+ 7    trantab = str.maketrans(letters, mask)
+ 8    return plain_text.translate(trantab)

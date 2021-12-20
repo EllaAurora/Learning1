@@ -12,10 +12,7 @@ for i in range(5):
     userInput = input("please enter your password: ")
     if userInput == password:
         print("Welcome to Twitter HQ")
-        break
-       
-
-
+        break       
     else:
         print("incorrect password")
         attempts = attempts+1

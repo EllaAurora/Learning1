@@ -30,9 +30,11 @@ my_string
 help(str.replace)
 
 # %%
+my_string = "ella"
 my_string.replace('a', '?')
 
 # %%
+my_string = "the weather is hot"
 my_string.replace("is", "will be")
 
 # %%
@@ -450,3 +452,28 @@ else:
         print("please try again")
         print("loop exited")
 # %%
+
+
+
+# %%
+import random
+z = [1,2,3,4,5,8]
+print("initialised",z)
+random.shuffle(z)
+print ("shuffled",z)
+
+z2=sorted(z)
+print("sorted",z2)
+
+#  %% while loops
+i=0
+while (i<5):
+  print(i)
+  i=i+1
+
+
+
+
+# %%
+
+
